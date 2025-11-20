@@ -524,6 +524,12 @@ url={[https://github.com](https://github.com/)[/MichaelMatley/Hierarchial-VAE-Em
 
 Open an issue or contact paradigmdynamics@proton.me
 
+**Support**
+
+If you've found this repo be beneficial and light the work that you see you can support more like it here: 
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/michaelmatley)
+
 *Disclaimer
 This is an exploratory research project. The code is provided as-is for educational and research purposes. The “emergent representations” discovered are purely statistical patterns and should not be interpreted as biological discoveries or meaningful insights into genomic function.
 The goal is to study self-organisation in neural networks, not to advance genomics.
