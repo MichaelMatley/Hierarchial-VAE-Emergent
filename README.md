@@ -283,87 +283,87 @@ This experiment demonstrates:
 
 ## Repository Structure
 
-hierarchical-vae-emergent/
-│
-├── README.md 
-├── QUICKSTART.md
-├── requirements.txt 
-├── setup.py
-├── .gitignore 
-│
-├── configs/
-│   ├── default_config.yaml 
-│   └── experiment_configs/
-│       ├── beta_sweep.yaml 
-│       └── architecture_variants.yaml
-│
-├── src/
-│  ├── **init**.py          
-│   │
-│  ├── models/
-│   │   ├── **init**.py 
-│   │   ├── hierarchical_vae.py
-│   │   ├── encoder.py
-│   │   ├── decoder.py
-│   │   └── inference_wrapper.py 
-│   │
-│   ├── data/
-│   │   ├── **init**.py 
-│   │   ├── genomic_dataset.py 
-│   │   ├── dna_encoder.py
-│   │   └── synthetic_genome.py 
-│   │
-│   ├── training/
-│   │   ├── **init**.py 
-│   │   ├── trainer.py
-│   │   ├── losses.py
-│   │   └── schedular.py
-│   │
-│   ├── analysis/
-│   │   ├── **init**.py
-│   │   ├── intrinsic_dim.py  
-│   │   ├── clustering.py
-│   │   ├── visualisation.py
-│   │   ├── ablation.py
-│   │   ├── interpolation.py
-│   │   ├── manifold.py
-│   │   └── genertation.py
-│   │
-│   └── utils/
-│       ├── **init**.py
-│       ├── logging.py             
-│       └── checkpoint.py
-│
-├── scripts
-│   ├── train.py             
-│   ├── evaluate.py
-│   ├── analyze.py
-│   └── generate.py
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb     (in progress)
-│   ├── 02_training.ipynb             (in progress
-│   ├── 03_analysis.ipynb             (in progress
-│   └── colab_complete_v1.ipynb
-│
-├── tests/
-│   ├── **init**.p
-│   ├── test_models.py
-│   ├── test_data.py 
-│   └── test_training.py
-│
-├── outputs/ 
-│   ├── figures/
-│   ├── checkpoints/
-│   └── logs/
-│
-├── data/   
-│   └── (FASTA files)
-│
-└── docs/
-  ├── architecture.md
-  ├── analysis_methods.md 
-  └── api_reference.md
+hierarchical-vae-emergent/  
+│  
+├── README.md   
+├── QUICKSTART.md  
+├── requirements.txt   
+├── setup.py. 
+├── .gitignore   
+│  
+├── configs/  
+│   ├── default_config.yaml   
+│   └── experiment_configs/  
+│       ├── beta_sweep.yaml   
+│       └── architecture_variants.yaml  
+│  
+├── src/  
+│  ├── **init**.py            
+│   │  
+│  ├── models/  
+│   │   ├── **init**.py   
+│   │   ├── hierarchical_vae.py  
+│   │   ├── encoder.py  
+│   │   ├── decoder.py  
+│   │   └── inference_wrapper.py   
+│   │  
+│   ├── data/  
+│   │   ├── **init**.py   
+│   │   ├── genomic_dataset.py   
+│   │   ├── dna_encoder.py  
+│   │   └── synthetic_genome.py   
+│   │  
+│   ├── training/  
+│   │   ├── **init**.py   
+│   │   ├── trainer.py  
+│   │   ├── losses.py  
+│   │   └── schedular.py  
+│   │  
+│   ├── analysis/  
+│   │   ├── **init**.py  
+│   │   ├── intrinsic_dim.py    
+│   │   ├── clustering.py  
+│   │   ├── visualisation.py  
+│   │   ├── ablation.py  
+│   │   ├── interpolation.py  
+│   │   ├── manifold.py  
+│   │   └── genertation.py  
+│   │  
+│   └── utils/  
+│       ├── **init**.py  
+│       ├── logging.py               
+│       └── checkpoint.py  
+│  
+├── scripts  
+│   ├── train.py               
+│   ├── evaluate.py   
+│   ├── analyze.py    
+│   └── generate.py    
+│    
+├── notebooks/     
+│   ├── 01_data_exploration.ipynb     (in progress)   
+│   ├── 02_training.ipynb             (in progress)    
+│   ├── 03_analysis.ipynb             (in progress)    
+│   └── colab_complete_v1.ipynb    
+│    
+├── tests/    
+│   ├── **init**.py     
+│   ├── test_models.py     
+│   ├── test_data.py       
+│   └── test_training.py     
+│      
+├── outputs/     
+│   ├── figures/     
+│   ├── checkpoints/    
+│   └── logs/      
+│  
+├── data/     
+│   └── (FASTA files)   
+│    
+└── docs/   
+  ├── architecture.md   
+  ├── analysis_methods.md  
+  └── api_reference.md   
 
 ## Installation
 
