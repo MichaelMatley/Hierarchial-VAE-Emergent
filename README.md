@@ -72,7 +72,8 @@ Observing emergent properties:
 **VAE Loss:**
 
 $$
-⁍
+L = Reconstruction Loss + β × KL Divergence
+= MSE(x, x̂) + β × Σ KL(q(z|x) || p(z))
 $$
 
 Where:
@@ -282,7 +283,7 @@ This experiment demonstrates:
 
 ## Repository Structure
 
-> hierarchical-vae-emergent/
+hierarchical-vae-emergent/
 │
 ├── README.md 
 ├── QUICKSTART.md
@@ -322,7 +323,7 @@ This experiment demonstrates:
 │   │   ├── **init**.py
 │   │   ├── intrinsic_dim.py  
 │   │   ├── clustering.py
-│   │   ├── [v](http://visualization.py/)isualisation.py
+│   │   ├── visualisation.py
 │   │   ├── ablation.py
 │   │   ├── interpolation.py
 │   │   ├── manifold.py
@@ -340,9 +341,9 @@ This experiment demonstrates:
 │   └── generate.py
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb  (in progress)
-│   ├── 02_training.ipynb                 (in progress
-│   ├── 03_analysis.ipynb                (in progress
+│   ├── 01_data_exploration.ipynb     (in progress)
+│   ├── 02_training.ipynb             (in progress
+│   ├── 03_analysis.ipynb             (in progress
 │   └── colab_complete_v1.ipynb
 │
 ├── tests/
@@ -363,7 +364,6 @@ This experiment demonstrates:
   ├── architecture.md
   ├── analysis_methods.md 
   └── api_reference.md
-> 
 
 ## Installation
 
