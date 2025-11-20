@@ -493,33 +493,34 @@ Data Variants
 *If you use this code or ideas, please cite:*
 
 ```
-@software{hierarchical_vae_emergent,
+@software{hierarchical_vae_emergent},
 title={Hierarchical VAE for Emergent Representation Learning},
-author={[Michael Matley]},
+author={Michael Matley},
 year={2025},
-url={[https://github.com](https://github.com/)[/MichaelMatley/Hierarchial-VAE-Emergent](https://github.com/MichaelMatley/Hierarchial-VAE-Emergent)
+url={[https://github.com](https://github.com/)[/MichaelMatley/Hierarchial-VAE-Emergent](https://github.com/MichaelMatley/Hierarchial-VAE-Emergent)}
 ```
 
-Acknowledgments 
+**Acknowledgments**
 
 - C. elegans genome: WormBase (WBcel235 assembly)
 - VAE theory: Kingma & Welling (2013), Higgins et al. (2017, β-VAE)
 - Architecture inspiration: Ladder VAE (Sønderby et al., 2016)
 
-License
+**License**
 
 - GNU General Public Licence V3.0
 
-Contributing
+**Contributing**
+- Contact us if you would like to contribute 
 
-Pull requests welcome for:
+**Pull requests welcome for:**
 
 - New analysis methods
 - Architecture improvements
 - Visualisation enhancements
 - Documentation clarifications
 
-Contact / Questions? 
+**Contact / Questions?**
 
 Open an issue or contact paradigmdynamics@proton.me
 
