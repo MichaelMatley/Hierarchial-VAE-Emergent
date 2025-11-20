@@ -18,10 +18,10 @@ Rather than training on language or labeled datasets, we use *C. elegans* genomi
 
 A multi-scale VAE with three hierarchical latent spaces operating at different levels of abstraction:
 
-Input (4096d) → Encoder → Latent Hierarchy → Decoder → Reconstruction (4096d)
-├─ Level 1: 256d  (most abstract)
-├─ Level 2: 512d  (intermediate features)
-└─ Level 3: 1024d (fine-grained details)
+Input (4096d) → Encoder → Latent Hierarchy → Decoder → Reconstruction (4096d)  
+├─ Level 1: 256d  (most abstract)  
+├─ Level 2: 512d  (intermediate features)  
+└─ Level 3: 1024d (fine-grained details)  
 
 **Key Design Choices:**
 
